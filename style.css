@@ -89,19 +89,6 @@ body{
     cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/target1.png') 64 64, auto !important;
     overflow: hidden;
 }
-
-/* #earth {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    background-size: cover;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: opacity 0.5s ease;
-    border: 1px solid red;
-    } */
-    /* bottom: -40px; */
-    /* bottom: 10px; */
     
 #earth{
     /* border: 2px solid red; */
@@ -206,7 +193,9 @@ body{
 }
 
 .footer{
+    position: fixed;
     color: white;
+    bottom: 0px;
 }
 
 .footer a{
@@ -221,8 +210,6 @@ body{
     height: 20px;
     text-align: center;
     font-size: 1rem;
-    position: fixed;
-    bottom: 0px;
     text-decoration: none;
 }
 
