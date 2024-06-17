@@ -20,6 +20,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let asteroids = [];
     let gameInterval;
 
+    const storedScore = localStorage.getItem("spaceDefenderScore");
+    if (storedScore) {
+        score = parseInt(storedScore);
+    }
+    scoreDisplay.textContent = "Score: " + score;
+
     startBtn.addEventListener("click", startGame);
     quitBtn.addEventListener("click", quitGame);
 
@@ -31,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         updateHealthBar();
         gameInterval = setInterval(createAsteroid, 1000); // Decreased interval for more frequent asteroid appearance
     }
-
+    
     function endGame() {
         clearInterval(gameInterval);
         gameContainer.style.display = "none";
@@ -39,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
         endScreen.classList.remove("hidden");
         endScreen.style.display = "flex";
         
+        localStorage.setItem("spaceDefenderScore", score)
         const playBtn = document.getElementById("play-again-btn");
         const homeBtn = document.getElementById("home-btn");
         playBtn.addEventListener("click", function(){
