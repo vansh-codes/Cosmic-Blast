@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         healthText.style.color = 'white';
         health = 100;
         updateHealthBar();
-        gameInterval = setInterval(createAsteroid, 1000); // Decreased interval for more frequent asteroid appearance
+        gameInterval = setInterval(createAsteroid, 500); // Decreased interval for more frequent asteroid appearance
     }
     
     function endGame() {
