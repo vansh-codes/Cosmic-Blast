@@ -11,7 +11,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 100vh;
+    color: white;
+    margin: 0 5rem;
 }
 
 #interface h1 {
@@ -81,6 +84,7 @@ body{
  }
 
 #game-container {
+    color: white;
     display: none;
     position: relative;
     width: 100vw;
@@ -112,6 +116,7 @@ body{
 
 #score {
     position: absolute;
+    color: white;
     top: 10px;
     left: 10px;
     font-size: 1.4rem;
@@ -142,6 +147,7 @@ body{
 
 #end-screen {
     display: none;
+    color: white;
     position: fixed;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -150,6 +156,7 @@ body{
     height: 100%;
     background-image: url("assets/background.jpg");
     z-index: 10; /* Ensure it's above other elements */
+    margin: 0 5rem;
 }
 
 .popup {
