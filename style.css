@@ -156,7 +156,7 @@ body{
     height: 100%;
     background-image: url("assets/background.jpg");
     z-index: 10; /* Ensure it's above other elements */
-    margin: 0 5rem;
+    margin: 0 1rem;
 }
 
 .popup {
@@ -182,7 +182,7 @@ body{
 
 .popup button {
     padding: 10px 20px;
-    margin: 0 10px;
+    margin: 10px 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
