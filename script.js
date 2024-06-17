@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     quitBtn.addEventListener("click", quitGame);
 
     function startGame() {
+        resetGame();
         interfaceDiv.style.display = "none";
         gameContainer.style.display = "block";
         healthText.style.color = 'white';
@@ -58,9 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
             endScreen.style.display = "none";
             gameContainer.style.display = "none";
             interfaceDiv.style.display = "flex";
-        });
-
-        resetGame();
+        });   
     }
 
     function resetGame() {
