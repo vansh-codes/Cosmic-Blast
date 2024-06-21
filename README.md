@@ -1,7 +1,11 @@
 # **Cosmic Blast**
 <br>
 
-![Vercel](https://vercelbadge.vercel.app/api/vansh-codes/Cosmic-Blast?style=plastic)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white)
+![Vercel](https://vercelbadge.vercel.app/api/vansh-codes/TestForge?style=plastic)
 
 ![Cosmic-Blast](https://socialify.git.ci/vansh-codes/Cosmic-Blast/image?description=1&font=KoHo&name=1&owner=1&pattern=Solid&theme=Dark)
 
