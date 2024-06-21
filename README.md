@@ -6,10 +6,11 @@
 ![Cosmic-Blast](https://socialify.git.ci/vansh-codes/Cosmic-Blast/image?description=1&font=KoHo&name=1&owner=1&pattern=Solid&theme=Dark)
 
 ### Table of Contents
-1. [Description](https://github.com/vansh-codes/Cosmic-Blast/blob/main/README.md#description)
-2. [Functionalities](https://github.com/vansh-codes/Cosmic-Blast/blob/main/README.md#functionalities)
-3. [How to Play?](https://github.com/vansh-codes/Cosmic-Blast/blob/main/README.md#how-to-play%EF%B8%8F)
-4. [Screenshots](https://github.com/vansh-codes/Cosmic-Blast/edit/main/README.md#screenshots)
+1. [Description](https://github.com/vansh-codes/Cosmic-Blast?tab=readme-ov-file#description)
+2. [Functionalities](https://github.com/vansh-codes/Cosmic-Blast?tab=readme-ov-file#functionalities)
+3. [How to Play?](https://github.com/vansh-codes/Cosmic-Blast?tab=readme-ov-file#how-to-play%EF%B8%8F)
+4. [Screenshots](https://github.com/vansh-codes/Cosmic-Blast?tab=readme-ov-file#screenshots-)
+5. [Social Links](https://github.com/vansh-codes/Cosmic-Blast?tab=readme-ov-file#-links)
 
 ## **Description📃**
 Cosmic Blast is an exciting and fast-paced arcade game where the fate of Earth lies in your hands. The planet is under attack by a relentless barrage of asteroids, and it's up to you to protect it. As the defender, you must blast the incoming asteroids to prevent them from causing damage to Earth. With each collision, Earth's health diminishes, and it's your mission to ensure its survival for as long as possible.
