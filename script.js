@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     quitBtn.addEventListener("click", quitGame);
 
     function startGame() {
+        clearInterval(gameInterval);
         resetGame();
         interfaceDiv.style.display = "none";
         gameContainer.style.display = "block";
@@ -40,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     function endGame() {
-        clearInterval(gameInterval);
         gameContainer.style.display = "none";
         finalScore.textContent = score;
         endScreen.classList.remove("hidden");
